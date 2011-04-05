@@ -1,0 +1,15 @@
+--- This file is part of LuaDist project
+
+name = "etree"
+version = "0.1.1"
+
+desc = "Lua Element Tree is a library that enables manipulation of XML documents as simple data structures in Lua."
+author = "Sébastien Boisgérault"
+license = "MIT"
+maintainer = "Peter Kapec"
+url = "http://luaforge.net/projects/etree/"
+
+depends = {
+	"lua ~> 5.1",
+	"luaexpat >=1.1"
+}

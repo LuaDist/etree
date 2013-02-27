@@ -1,0 +1,32 @@
+type = "x86_64"
+arch = "Ubuntu"
+author = "Sébastien Boisgérault"
+depends = {
+[[lua ~> 5.1]],
+[[luaexpat >=1.1]],
+}
+
+desc = "Lua Element Tree is a library that enables manipulation of XML documents as simple data structures in Lua."
+version = "0.1.1"
+maintainer = "Peter Kapec"
+files = {
+Runtime = {
+[[lib/lua/etree.lua]],
+}
+,
+Documentation = {
+[[share/etree/doc/style.css]],
+[[share/etree/doc/manual.html]],
+[[share/etree/doc/manual.txt]],
+}
+,
+Data = {
+[[share/etree/LICENSE]],
+[[share/etree/README]],
+}
+,
+}
+
+license = "MIT"
+name = "etree"
+url = "http://luaforge.net/projects/etree/"
